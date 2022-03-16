@@ -23,6 +23,7 @@ var Students = /** @class */ (function () {
     }
     Students.prototype.displayStudent = function () {
         console.log("This person is ".concat(this.gender));
+        console.trace(this.gender);
     };
     Students.prototype.getNationality = function () {
         console.log("The ".concat(this.gender, " student, ").concat(this.name, ", aged ").concat(this.age, ", is from ").concat(this.nationality, " with a GAP of ").concat(this.gpa, "."));

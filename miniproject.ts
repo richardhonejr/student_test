@@ -1,4 +1,5 @@
 
+
 interface Iundergrad{
      name: string;
      age: number;
@@ -24,7 +25,8 @@ class Students implements Iundergrad {
      }
  
      displayStudent(): void {
-         console.log(`This person is ${this.gender}`);
+          console.log(`This person is ${this.gender}`);
+          console.trace(this.gender);
      }
      getNationality(): void{
           console.log(`The ${this.gender} student, ${this.name}, aged ${this.age}, is from ${this.nationality} with a GAP of ${this.gpa}.`)
